@@ -28,7 +28,7 @@
   <target name="build" />
   
   <target name="package">
-    <delete dir="target/package" />
+    <!--<delete dir="target/package" />-->
     <copy todir="target/package/libs" includeEmptyDirs="no">
       <fileset file="target/ambari-logsearch-appender.jar" />
     </copy>
